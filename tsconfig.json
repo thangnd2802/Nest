@@ -1,0 +1,73 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2021",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      // nest-microservice aliases
+      "@nest-microservice/domain": [
+        "apps/nest-microservice/src/domain"
+      ],
+      "@nest-microservice/domain/*": [
+        "apps/nest-microservice/src/domain/*"
+      ],
+      "@nest-microservice/application": [
+        "apps/nest-microservice/src/application"
+      ],
+      "@nest-microservice/application/*": [
+        "apps/nest-microservice/src/application/*"
+      ],
+      "@nest-microservice/common": [
+        "apps/nest-microservice/src/common"
+      ],
+      "@nest-microservice/common/*": [
+        "apps/nest-microservice/src/common/*"
+      ],
+      "@nest-microservice/infrastructure": [
+        "apps/nest-microservice/src/infrastructure"
+      ],
+      "@nest-microservice/infrastructure/*": [
+        "apps/nest-microservice/src/infrastructure/*"
+      ],
+      //
+      "@app/shared": [
+        "libs/shared/src"
+      ],
+      "@app/shared/*": [
+        "libs/shared/src/*"
+      ],
+      "@app/grpc": [
+        "libs/grpc/src"
+      ],
+      "@app/grpc/*": [
+        "libs/grpc/src/*"
+      ],
+      "@app/localization": [
+        "libs/localization/src"
+      ],
+      "@app/localization/*": [
+        "libs/localization/src/*"
+      ],
+      "@app/mailer": [
+        "libs/mailer/src"
+      ],
+      "@app/mailer/*": [
+        "libs/mailer/src/*"
+      ]
+    }
+  }
+}

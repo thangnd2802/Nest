@@ -1,0 +1,16 @@
+{
+    "BASE_SUCESS": "Successfully",
+    "AUTH_SUCCESS": "User authenticated successfully",
+    "USER_CREATED": "User created successfully",
+    "AUTH_FAILED": "Authentication failed",
+    "USER_NOT_FOUND": "User not found",
+    "INVALID_CREDENTIALS": "Invalid credentials",
+    "PASSWORD_MISMATCH": "Password mismatch",
+    "USER_ALREADY_EXISTS": "User already exists",
+    "INTERNAL_SERVER_ERROR": "Internal server error",
+    "VALIDATION_ERROR": "Validation error",
+    "UNAUTHORIZED": "Unauthorized access",
+    "FORBIDDEN": "Access forbidden",
+    "NOT_FOUND": "Resource not found"
+}
+  
